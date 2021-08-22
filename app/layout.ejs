@@ -14,13 +14,13 @@
   <body>
     <header class="header">
       <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-        <div class="container-fluid">
+        <div class="container">
           <a class="navbar-brand logo logo-primary" href="#">DOYOGA</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto">
+            <ul class="navbar-nav m-auto">
               <li class="nav-item">
                 <a class="nav-link py-7 px-4" href="#">課程介紹</a>
               </li>
@@ -43,29 +43,30 @@
     <%- contents %>
 
     <footer class="footer bg-success text-white">
-      <div class="container row py-8 border-bottom-1 border-white">
+      <div class="container m-auto row justify-content-between py-8">
         <h3 class="col-md-5 col-xs-12 fs-h3">
           現在訂閱，獲得課程優惠碼！
         </h3>
-        <div class="col-md-5 col-xs-12 input-group">
-          <input type="text" class="form-control" placeholder="輸入您的電子信箱">
-          <button class="btn btn-primary px-4">訂閱</button>
+        <div class="col-md-4 col-xs-12">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="輸入您的電子信箱">
+            <button class="btn btn-primary px-4">訂閱</button>
+          </div>
         </div>
       </div>
-      <div class="container row">
+      <hr class="m-0"/>
+      <div class="container row m-auto py-8">
         <div class="col-sm-4 col-xs-6">
-          <ul>
-            <li>
-              <a class="navbar-brand logo logo-xf" href="index.html">DOYOGA</a>
+          <a class="navbar-brand logo logo-xf" href="index.html">DOYOGA</a>
+          <ul class="mb-0 p-0">
+            <li class="py-1">
+              <a class="fs-7 link-light" href="#">課程介紹</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link py-1" href="#">課程介紹</a>
+            <li class="py-1">
+              <a class="py-1 fs-7 link-light" href="#">瑜珈空間</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link py-1" href="#">瑜珈空間</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link py-1" href="#">當月課表</a>
+            <li class="py-1">
+              <a class="py-1 fs-7 link-light" href="#">當月課表</a>
             </li>
           </ul>
         </div>
@@ -73,7 +74,7 @@
           <small class="fs-7">© 2021. All Rights Reserved.</small>
         </div>
         <div class="col-sm-4 col-xs-6">
-          <ul class="d-flex">
+          <ul class="d-flex justify-content-end">
             <li class="ps-2"><i class="fab fa-facebook"></i></li>
             <li class="ps-2"><i class="fab fa-instagram"></i></li>
             <li class="ps-2"><i class="fab fa-line"></i></li>
