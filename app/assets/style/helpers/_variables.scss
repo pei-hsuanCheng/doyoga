@@ -61,15 +61,15 @@ $colors: (
   "teal":       $teal,
   "cyan":       $cyan,
   "white":      $white,
-  "gray":       $gray-600,
+  "gray":       $cus-gray,
   "gray-dark":  $gray-800
 ) !default;
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
-$primary:       #00cc99; // $blue !default;
-$secondary:     $gray-600 !default;
-$success:       $green !default;
+$primary:       $cus-primary; // $blue !default;
+$secondary:     $cus-secondary !default;
+$success:       $cus-success !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
@@ -250,11 +250,18 @@ $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
 $spacer: 1rem !default;
 $spacers: (
   0: 0,
-  1: $spacer * .25,
-  2: $spacer * .5,
-  3: $spacer,
-  4: $spacer * 1.5,
-  5: $spacer * 3,
+  1: $spacer * .25,  // 4
+  2: $spacer * .5,   // 8
+  3: $spacer * .75,  // 12
+  4: $spacer,        // 16
+  5: $spacer * 1.25, // 20
+  6: $spacer * 1.5,  // 24
+  7: $spacer * 1.75, // 28
+  8: $spacer * 2,    // 32
+  9: $spacer * 2.25, // 36
+  10: $spacer * 2.5, // 40
+  11: $spacer * 3.75, //60
+  12: $spacer * 5, //80
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
@@ -277,7 +284,7 @@ $position-values: (
 // Settings for the `<body>` element.
 
 $body-bg:                   $white !default;
-$body-color:                $gray-900 !default;
+$body-color:                $cus-success !default;
 $body-text-align:           null !default;
 
 
@@ -285,7 +292,7 @@ $body-text-align:           null !default;
 //
 // Style anchor elements.
 
-$link-color:                              $primary !default;
+$link-color:                              $cus-gray !default;
 $link-decoration:                         underline !default;
 $link-shade-percentage:                   20% !default;
 $link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
@@ -373,12 +380,12 @@ $border-color:                $gray-300 !default;
 // scss-docs-start border-radius-variables
 $border-radius:               .25rem !default;
 $border-radius-sm:            .2rem !default;
-$border-radius-lg:            .3rem !default;
+$border-radius-lg:            1rem !default;
 $border-radius-pill:          50rem !default;
 // scss-docs-end border-radius-variables
 
 // scss-docs-start box-shadow-variables
-$box-shadow:                  0 .5rem 1rem rgba($black, .15) !default;
+$box-shadow:                  $cus-shadow !default;
 $box-shadow-sm:               0 .125rem .25rem rgba($black, .075) !default;
 $box-shadow-lg:               0 1rem 3rem rgba($black, .175) !default;
 $box-shadow-inset:            inset 0 1px 2px rgba($black, .075) !default;
@@ -451,12 +458,13 @@ $h6-font-size:                $font-size-base !default;
 
 // scss-docs-start font-sizes
 $font-sizes: (
-  1: $h1-font-size,
-  2: $h2-font-size,
-  3: $h3-font-size,
-  4: $h4-font-size,
-  5: $h5-font-size,
-  6: $h6-font-size
+  1: $h1-font-size, // 40
+  2: $h2-font-size, // 32
+  3: $h3-font-size, // 28
+  4: $h4-font-size, // 24
+  5: $font-size-base * 1.375, // 22
+  6: $h5-font-size, // 20
+  7: $h6-font-size, // 16
 ) !default;
 // scss-docs-end font-sizes
 

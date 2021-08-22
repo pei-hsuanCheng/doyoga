@@ -1,0 +1,84 @@
+$font-sizes: (
+  1: $h1-font-size, // 40
+  2: $h2-font-size, // 32
+  3: $h3-font-size, // 28
+  4: $h4-font-size, // 24
+  5: $font-size-base * 1.375, // 22
+  6: $h5-font-size, // 20
+  7: $h6-font-size, // 16
+) !default;
+
+$spacers: (
+  0: 0,
+  1: $spacer * .25,  // 4
+  2: $spacer * .5,   // 8
+  3: $spacer * .75,  // 12
+  4: $spacer,        // 16
+  5: $spacer * 1.25, // 20
+  6: $spacer * 1.5,  // 24
+  7: $spacer * 1.75, // 28
+  8: $spacer * 2,    // 32
+  9: $spacer * 2.25, // 36
+  10: $spacer * 2.5, // 40
+  11: $spacer * 3.75, //60
+  12: $spacer * 5, //80
+) !default;
+
+$primary:       #C0A4A5
+$secondary:     #F5F0E7
+$success:       #907A7B
+
+cover
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/photo-1612157777902-5382bc6e864b.jpeg
+
+感受身心
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/photo-1593810450967-f9c42742e326.jpeg
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/photo-1593810451137-5dc55105dace.jpeg
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/photo-1599901860904-17e6ed7083a0.jpeg
+
+頂尖師資、專業教學
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/photo-1540206276207-3af25c08abc4.jpeg
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/teacher-1.png
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/teacher-2.png
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/teacher-3.png
+
+舒適空間
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/white%20round%20table%20near%20brown%20wooden%20chair.jpg
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/woman%20in%20black%20sports%20bra%20and%20blue%20denim%20jeans%20doing%20yoga.jpg
+
+精心設計
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/woman%20doing%20yoga%20beside%20wall.jpg
+聽聽他們怎麼說
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/user-1.png
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/user-2.png
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/user-3.png
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/user-4.png
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/user-5.png
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/user-6.png
+
+課程介紹頁面：
+雙人飛行
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/two%20woman%20dong%20fitness%20exercise.jpg
+哈達
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/woman%20in%20black%20sports%20bra%20and%20black%20leggings%20doing%20yoga.jpg
+陰陽
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/woman%20in%20white%20tank%20top%20and%20white%20pants%20bending%20her%20body%20by%20the%20window.jpg
+
+瑜伽空間頁面：
+A、B團體課教室
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/blue%20swimming%20pool%20near%20green%20potted%20plant.jpg
+交誼廳
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/sittin%20people%20beside%20table%20inside%20room.jpg
+淋浴間
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/white%20ceramic%20sink%20near%20white%20ceramic%20sink.jpg
+
+方案選擇
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/woman%20in%20blue%20leggings%20and%20black%20tank%20top%20doing%20yoga.jpg
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/woman%20performing%20yoga.jpg
+https://hexschool.github.io/webLayoutTraining1st/yoga-week8/woman%20in%20white%20tank%20top%20and%20white%20leggings%20bending%20her%20body.jpg
+
+<i class="fab fa-facebook"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-line"></i>
+
+index, contact, surrounding
