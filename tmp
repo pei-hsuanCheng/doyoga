@@ -20,8 +20,9 @@ $spacers: (
   8: $spacer * 2,    // 32
   9: $spacer * 2.25, // 36
   10: $spacer * 2.5, // 40
-  11: $spacer * 3.75, //60
-  12: $spacer * 5, //80
+  11: $spacer * 3,   // 48
+  12: $spacer * 3.75,// 60
+  13: $spacer * 4,   // 64
 ) !default;
 
 $primary:       #C0A4A5
