@@ -1,0 +1,11 @@
+.btn-primary {
+  @include button-variant($primary, $primary, $white, $success, $success, $white);
+}
+
+.btn-secondary {
+  @include button-variant($secondary, $secondary, $cus-gray, $success, $success, $white);
+}
+
+.btn-outline-success {
+  @include button-outline-variant($success, $white, $success);
+}
