@@ -2,6 +2,7 @@
 @import "./utils/_variables.scss";
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/swiper/swiper";
 
 @import "basic/_basic";
 
@@ -14,3 +15,4 @@
 @import "component/_logo";
 @import "component/_stickyNavBar";
 @import "component/_avatar";
+@import "component/_swiper";
