@@ -2,13 +2,12 @@
 @import "./utils/_variables.scss";
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
-@import "../../../node_modules/swiper/swiper";
 
 @import "basic/_basic";
 
 @import "utils/_mixin";
-@import "utils/_utils";
 @import "utils/_helpers";
+@import "utils/_utils";
 @import "utils/_variables";
 
 @import "component/_btn";
